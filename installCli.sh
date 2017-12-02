@@ -3,4 +3,5 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy ma
      sudo tee /etc/apt/sources.list.d/azure-cli.list
 sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893
 sudo apt-get install apt-transport-https
-sudo apt-get update &amp;&amp; sudo apt-get install azure-cli
+sudo apt-get update
+sudo apt-get install azure-cli
